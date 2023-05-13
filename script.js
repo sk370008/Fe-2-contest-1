@@ -53,6 +53,6 @@ function concatenateArray() {
     { id: 6, name: 'Shyam', age: '18', marks: 93 },
     { id: 7, name: 'Rahul', age: '20', marks: 95 },
   ];
-
-  console.log(arr2);
+  const concatenateArray = arr.concat(arr2);
+  console.log(concatenateArray);
 }
